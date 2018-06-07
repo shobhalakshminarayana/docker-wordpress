@@ -17,3 +17,9 @@ Make sure you have the latest versions of **Docker** and **Docker Compose** inst
 ## Running wordpress with docker-compose
 
 `docker-compose up -d`
+
+## Building and Running the dockerfile
+
+`docker build -t "simple_flask:dockerfile" .`
+<br/> `docker run -p 5000:5000 simple_flask:dockerfile python hello.py`
+
